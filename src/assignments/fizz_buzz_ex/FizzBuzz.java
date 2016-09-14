@@ -6,7 +6,9 @@ package assignments.fizz_buzz_ex;
 public class FizzBuzz {
 
     public void enterNumber(int i) {
-        if (checkMultiple(i, 3)) {
+        if (checkMultiple(i, 3) && checkMultiple(i, 5)) {
+            System.out.println("FizzBuzz");
+        } else if (checkMultiple(i, 3)) {
             System.out.println("Fizz");
         } else if (checkMultiple(i, 5)) {
             System.out.println("Buzz");
