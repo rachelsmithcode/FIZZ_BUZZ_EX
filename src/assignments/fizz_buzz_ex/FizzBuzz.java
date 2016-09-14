@@ -6,6 +6,10 @@ package assignments.fizz_buzz_ex;
 public class FizzBuzz {
 
     public void enterNumber(int i) {
-        System.out.println("Fizz");
+        if (i == 3) {
+            System.out.println("Fizz");
+        } else {
+            System.out.println("Buzz");
+        }
     }
 }

@@ -34,4 +34,12 @@ public class FizzBuzzTests {
         assertEquals("Fizz\n", outContent.toString());
     }
 
+    @Test
+    public void printsBuzzFor5() throws Exception {
+        new FizzBuzz().enterNumber(5);
+        assertEquals("Buzz\n", outContent.toString());
+    }
+
+
+
 }
