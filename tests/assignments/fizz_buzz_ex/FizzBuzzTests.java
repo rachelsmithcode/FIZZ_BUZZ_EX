@@ -40,6 +40,14 @@ public class FizzBuzzTests {
         assertEquals("Buzz\n", outContent.toString());
     }
 
+    @Test
+    public void printsNumberFor1() throws Exception {
+        new FizzBuzz().enterNumber(1);
+        assertEquals("1\n", outContent.toString());
+    }
+
+    
+
 
 
 }

@@ -8,8 +8,10 @@ public class FizzBuzz {
     public void enterNumber(int i) {
         if (i == 3) {
             System.out.println("Fizz");
-        } else {
+        } else if (i == 5) {
             System.out.println("Buzz");
+        } else {
+            System.out.println(i);
         }
     }
 }
