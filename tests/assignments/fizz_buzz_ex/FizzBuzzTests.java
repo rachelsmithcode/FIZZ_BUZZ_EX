@@ -52,6 +52,11 @@ public class FizzBuzzTests {
         assertEquals("Fizz\n", outContent.toString());
     }
 
+    @Test
+    public void printsBuzzForMultiplesOf5() throws Exception {
+        new FizzBuzz().enterNumber(10);
+        assertEquals("Buzz\n", outContent.toString());
+    }
 
 
 }
