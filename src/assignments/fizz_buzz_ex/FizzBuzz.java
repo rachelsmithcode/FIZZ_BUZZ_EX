@@ -6,7 +6,7 @@ package assignments.fizz_buzz_ex;
 public class FizzBuzz {
 
     public void enterNumber(int i) {
-        if (i == 3) {
+        if (i % 3 == 0) {
             System.out.println("Fizz");
         } else if (i == 5) {
             System.out.println("Buzz");
